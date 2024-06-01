@@ -1,0 +1,161 @@
+@charset "UTF-8";
+* {
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+/* PAGE SECTIONS*/
+
+body {
+    font-family: sans-serif;
+    color: #444;
+    background-color: #F7F7F7;
+}
+
+.container {
+    width: 800px;
+    word-break: break-all;
+    margin: 0 auto;
+}
+
+.main-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #003C8F;
+    padding: 20px 40px;
+    border-bottom: 10px solid #AAB6FE;
+    text-align: center;
+
+}
+
+nav {
+    font-size: 18px;
+}
+
+article {
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+.main-header h1, .main-header a:link, .main-header a:visited {
+    color: #E1F5FE;
+    font-style: italic;
+}
+
+.main-header a:hover, .main-header a:active {
+    color: #AAB6FE;
+    font-weight: bold;
+}
+
+a:hover, a:active {
+    color: #AAB6FE;
+    font-weight: bold;
+}
+
+aside {
+    background-color: #003C8F;
+    border-top: 5px solid #AAB6FE;
+    border-bottom: 5px solid #AAB6FE;
+    padding: 50px 10px;
+    width: 500px;
+
+}
+
+
+/* SMALLER ELEMENTS*/
+h1, h2, h3 {
+    color: #003C8F;
+
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-left: 50px;
+    margin-bottom: 20px
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 16px;
+    color: #003C8F;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
+
+aside p, aside a, aside h4 {
+    color: #E1F5FE;
+}
+
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+nav a:link {
+    display: inline-block;
+    margin-right: 30px;
+}

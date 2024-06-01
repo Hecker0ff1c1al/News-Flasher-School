@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!--        This contains information that won't be seen by the user, such as
+        1. Linking CSS and Javascript files to the HTML file.
+        2. The encoding of the file (in this case UTF-8)
+        3. The title of the page (what appears to the user on the tab on the window)-->
+
+        <meta charset="UTF-8">
+        <title>The News Flasher</title>
+        <link href="style.css" rel="stylesheet" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <!--        Classes and IDs are often used to edit specific parts of the page without unintentionally editing other parts of the page.
+        For example, this file has 2 headers, but if I only want to edit the main header instead of the post-header, I can create a class or ID to edit
+        the properties specifically in the CSS file. -->
+
+        <div class="container">
+            <header class="main-header">
+                <h1>The News Flasher 📸</h1>
+                <nav>
+                    <a href="index.html" target="blank">Home Page</a>
+                    <a href="https://www.youtube.com/watch?v=EXZ2YLDcA1o" target="blank">Affiliates</a>
+                    <a href="https://www.thebeaverton.com" target="blank">Our partner organisation</a>
+                    <a href="https://www.youtube.com/watch?v=VthfqEEekrY" target="blank">Our goal</a>
+                </nav>
+            </header>
+
+            <article>
+                <header class="post-header">
+                    <h2>The Genocide on the SKELD</h2>
+                    <img alt="Image of the author 'blue' with his colleagues who survived"
+                         height="50"
+                         src="images/author.jpeg"
+                         width="50" />
+                    <p class="author">A testimony and article by <strong>Blue</strong>, on October 28th 3018</p>
+                    <img alt="Camera footage of the suspected murder emoting on his victim"
+                         height="300"
+                         src="images/camera-footage.png" />
+                </header>
+
+                <p class="intro">
+                    In recent times, with the development of new technology, many new feats have been reached. However,
+                    with
+                    great power with some individuals, others paid a dire price...
+                </p>
+
+                <h3>The rundown</h3>
+                <p>
+                    On June 15th 3018, NASA decided to finally begin their Mars colonisation project. With the 20
+                    astronauts sent up for the 7-month journey, only 11 could come back to their families.
+                </p>
+
+                <h3>What is the SKELD</h3>
+                <p>
+                    The SKELD is a marvel of modern engineering, a spaceship that pushes the boundaries of imagination
+                    and
+                    technology. As you step aboard this futuristic vessel, you are greeted by sleek metallic surfaces
+                    that
+                    reflect the soft glow of the ambient lighting, creating an atmosphere of elegance and
+                    sophistication. It
+                    is a true pioneer in space travel, and it has the following abilities:
+                </p>
+                <ul>
+                    <li>A hologram, able to receive a signal from over 100 AU away</li>
+                    <li>An emergency vessel in the event of an emergency</li>
+                    <li>The first ever hybrid space vehicle! It utilises the power of nuclear energy and sustainability
+                        of solar energy
+                    </li>
+                </ul>
+                <h3>The details</h3>
+                <p>
+                    Based on the autopsy provided by NASA and the world's finest secret services (MI5, MI6, GCHQ, FBI,
+                    RAW,
+                    etc.), we can't say much to the public what happened, but we can say the following things:
+                </p>
+                <ol>
+                    <li>The murders occurred in a short amount of time, with the nine murders occurring in just under 2
+                        hours
+                    </li>
+                    <li>The victims seemed to have been killed with a sharp object through the head, much sharper than
+                        the
+                        knives supplied
+                    </li>
+                    <li>All surviving crew are in court as of now, including myself. We are all to present out
+                        testimonies,
+                        and I only want mine for the world to see my innocence
+                    </li>
+                </ol>
+                <h3>Wrapping it up</h3>
+                <p>Overall, this was originally going to be a pioneering trip into the unknown, but I have been left
+                    traumatised, a mental scar left in my mind. Thank you for taking the time to read this article and
+                    testimony by me</p>
+            </article>
+            <aside>
+                <h4>Related posts:</h4>
+                <ul class="related">
+                    <li>
+                        <img alt="Space"
+                             height="75"
+                             src="images/space.png"
+                             width="75" />
+                        <a href="index.html">How to get into space photography</a>
+                        <p class="related-author">
+                            By Nathan Ungabonga
+                        </p>
+                    </li>
+
+                    <li>
+                        <img alt="A picture on the moon"
+                             height="75"
+                             src="images/moon.png"
+                             width="75" />
+                        <a href="index.html">How the moon landing was faked!</a>
+                        <p class="related-author">
+                            By Apollo Eh-levan
+                        </p>
+                    </li>
+
+                    <li>
+                        <img alt="Man on an asteroid"
+                             height="75"
+                             src="images/asteroid.png"
+                             width="75" />
+                        <a href="index.html">How diamonds on asteroids are collected</a>
+                        <p class="related-author">
+                            By `Blue`
+                        </p>
+                    </li>
+                </ul>
+            </aside>
+            <footer>
+                <p id="copyright">
+                    <!--                    Here, an entity reference is called for the `copyright` symbol.
+                    Although I could copy and paste the character in as a character, this might cause the character to not load on some browsers/devices.
+                    Entity references are universal and should work on all devices and browsers!
+                    -->
+                    &copy; News-Flasher 3018
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
